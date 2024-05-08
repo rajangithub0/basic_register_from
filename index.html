@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form for business</title>
+  </head>
+  <body>
+    <center><table border="2" bgcolor="aqua"></center>
+      <tr>
+        <form action="#" method="post">
+          <td colspan="2">
+            <center><h1>Business Enquiry Form</h1></center>
+          </td>
+      </tr>
+    <tr>
+      <td>       
+          <label for="company">Company Name:</label>
+          <input type="text" name="company" id="company" size="100" required />
+          <br /><br />
+          <label for="contact">Contact Person</label>
+          <input type="number" name="contact" id="contact" size="100" minlength="100" required/>
+          <br /><br />
+          <label for="address1">Address 1:</label>
+          <input type="text" name="address1" id="address1" size="106" required />
+          <br /><br />
+          <input
+            type="text"
+            name="address2"
+            id="address2"
+            placeholder="Address2"
+            size="117"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="city"
+            id="city"
+            placeholder="City"
+            size="55"
+          />&nbsp;&nbsp;<input
+            type="region"
+            name="region"
+            id="region"
+            placeholder="region"
+            size="55"
+          />
+          <br />
+          <br />
+
+          <input
+            type="text"
+            name="pincode"
+            id="pincode"
+            placeholder="Pincode"
+            required
+            size="75"
+          />
+          <!-- <label for="states">Select a State:</label> -->
+          <select id="states" name="states">
+            <option value="select state">---Select State---</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+          <br />
+          <br />
+          <label for="Mobile">Mobile Number:</label>
+          <input
+            type="number"
+            name="Mobile"
+            id="Mobile"
+            required
+            size="100"
+          />
+          <br /><br />
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" size="110" required />
+          <br /><br />
+          <label for="Enquiry">Enquiry Details</label><br />
+          <textarea name="Enquiry" id="Enquiry" cols="115" rows="6"></textarea>
+          <br /><br />
+          <center>
+            <button type="submit">Sumbit</button>
+            <button type="reset">Reset</button>
+          </center>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
